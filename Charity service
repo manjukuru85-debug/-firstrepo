@@ -1,0 +1,83 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Charity Connection Service</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: linear-gradient(to bottom, #fff8dc, #ffffff); }
+header { text-align: center; padding: 20px; }
+header img { width: 100%; border-radius: 10px; margin-bottom: 20px; }
+section { padding: 20px; max-width: 900px; margin: auto; }
+.card { background: white; padding: 20px; margin: 15px 0; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+footer { text-align: center; padding: 20px; background: #333; color: white; margin-top: 40px; }
+button { background: #4CAF50; border: none; padding: 10px 20px; color: white; border-radius: 5px; cursor: pointer; }
+button:hover { background: #45a049; }
+.banner-caption { position: relative; top: -150px; background: rgba(255, 255, 255, 0.7); display: inline-block; padding: 15px 25px; border-radius: 10px; font-size: 1.5em; font-weight: bold; color: #4CAF50; }
+
+
+/* Headings style */
+h1 { font-size: 2.5em; color: #2E8B57; }
+h2 { font-size: 1.8em; color: #FF8C00; margin-bottom: 10px; }
+p { font-size: 1em; color: #333; }
+
+
+/* Donation images */
+.donation-images { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; justify-content: center; }
+.donation-images img { width: 220px; height: 150px; object-fit: cover; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+.donation-item { text-align: center; margin-bottom: 15px; }
+.donation-item h3 { margin: 10px 0; color: #2E8B57; }
+@media(max-width: 768px){ .donation-images img { width: 100%; height: auto; } }
+</style>
+</head>
+<body>
+<header>
+<img src="https://i.postimg.cc/WdJyQxf5/66c7455c.jpg" alt="Helping Hands Banner" />
+<div class="banner-caption">Helping Hands: Connecting Donors with Those in Need</div>
+<h1>Charity Connection Service</h1>
+<p>Connecting donors with people in need</p>
+</header>
+
+
+<section>
+<div class="card">
+<h2>About Us</h2>
+<p>Because your unused items can change someone’s life.</p>
+</div>
+
+
+<div class="card">
+<h2>Donate an Item</h2>
+<p>Give what you don’t need. Change what someone can’t live without.</p>
+<button>Submit Donation</button>
+<div class="donation-images">
+<div class="donation-item">
+<img src="https://images.unsplash.com/photo-1606851099685-108621b62f5c?auto=format&fit=crop&w=800&q=80" alt="Clothes Donation" />
+<h3>Clothes</h3>
+</div>
+<div class="donation-item">
+<img src="https://images.unsplash.com/photo-1591012911206-6d1f7d936254?auto=format&fit=crop&w=800&q=80" alt="Toys Donation" />
+<h3>Toys</h3>
+</div>
+<div class="donation-item">
+<img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80" alt="Books Donation" />
+<h3>Books</h3>
+</div>
+</div>
+</div>
+
+
+<div class="card">
+<h2>Request an Item</h2>
+<p>If you need it, we’re here to help connect you with support.</p>
+<button>Request Item</button>
+</div>
+</section>
+
+
+<footer>
+<h2>Mission</h2>
+<p>Together, we build a community of giving.</p>
+</footer>
+</body>
+</html>
